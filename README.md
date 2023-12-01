@@ -33,6 +33,8 @@ Once you have pasted your private key and contract address in the .env file and 
 ```shell
 npm start
 ```
+To try out the live version of this application visit:  https://demvoter-fd17c.web.app
+*note that the contract might have expired when you visit the site above (contract is to be expired on 3rd december 2023)
 
 ## DOCUMENTATION
 
