@@ -36,18 +36,4 @@ npm start
 To try out the live version of this application visit:  https://demvoter-fd17c.web.app
 *note that the contract might have expired when you visit the site above (contract is to be expired on 3rd december 2023)
 
-## DOCUMENTATION
 
-The project is majorly divided into three parts:
-1. The smart contract which acts like the backend
-2. The components which interact with the backend
-3. The front end components which brings application interactivity to the end users
-
-I have used three components:
-1. Connected: This is activated once the user is connected to his/her metamask wallet, it has functionality to display the candidates (in our case emirates in the UAE) and the facility to vote for any candidate while verifying that one individual can vote only once.
-2. Finished: This is used to display a block page after the contract has been expired notifying the user that voting is finished.
-3. Login: This is used to let the user connect to his/her metamask wallet
-
-The functionality of the application is controlled from one file which is App.js, the core business logic and all the state management is handled within this file.
-
-For the styling, I have put one file under the name of App.css and called it's classname's where required.
